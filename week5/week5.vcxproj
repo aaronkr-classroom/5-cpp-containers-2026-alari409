@@ -127,13 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="frame.h" />
     <ClInclude Include="grade.h" />
     <ClInclude Include="median.h" />
+    <ClInclude Include="split_str.h" />
     <ClInclude Include="Student_info.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="frame.cpp" />
     <ClCompile Include="grade.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="main_frame.cpp" />
+    <ClCompile Include="main_split_str.cpp" />
+    <ClCompile Include="median.cpp" />
+    <ClCompile Include="split_str.cpp" />
     <ClCompile Include="Student_info.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

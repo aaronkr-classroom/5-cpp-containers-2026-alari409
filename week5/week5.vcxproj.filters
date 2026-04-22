@@ -24,6 +24,12 @@
     <ClInclude Include="median.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="frame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="split_str.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -33,6 +39,21 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="grade.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="frame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_frame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_split_str.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="median.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="split_str.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

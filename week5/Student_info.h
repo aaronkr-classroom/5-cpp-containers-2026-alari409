@@ -1,23 +1,24 @@
 #pragma once
 // Student_info.h
 
-#ifndef GUARD_Student_info
-#define GUARD_Student_info
+#ifndef GUARD_Student_info_h
+#define GUARD_Student_info_h
 
 #include <iostream>
 #include <string>
 #include <vector>
 
-using namespace std;
-
+// 구조체
 struct Student_info {
-    string name;
-    double midterm, final;
-    vector<double> homework;
-}; // 세미콜론을 잊지 않도록 주의
+	// 속성
+	std::string name;
+	double midterm, fin;
+	vector<double> homework;
+};
 
-bool compare(const Student_info&, const Student_info&);
-istream& read(istream&, Student_info&);
-istream& read_hw(istream&, vector<double>&);
+// 함수 원형 정의
+bool compare(const Student_info&, const Student_info&); // 이름 비교하기
+std::istream& read(std::istream&, Student_info&); // 한 학생의 정보 읽기
+std::istream& read_hw(std::istream&, vector<double>&); // 모든 과제 점수 읽기
 
 #endif
